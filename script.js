@@ -2,7 +2,7 @@ const questions = document.querySelectorAll('.question-container__question');
 
 console.log(questions); //probando si anda
 
-questions.forEach( question => question.addEventListener('click', toggle));
+questions.forEach( question => question.addEventListener('click', desplegar));
 
 function desplegar(e) {
 
