@@ -52,7 +52,7 @@ body{
     min-height:470px;
     background-color: var(--just-white);
     margin-top: 90px;
-    padding: 10px;
+    padding:10px;
     position: relative;
 }
 
@@ -105,15 +105,12 @@ picture img{
     color: var(--dark-grayish-blue);
     font-size:1.3rem;
     padding: 15px 0;
+    font-weight: 400;
 }
 
-.question-container__question:hover{
+.question-container__question:hover {
     color: var(--soft-red);
     cursor: pointer;
-}
-
-.question-container__question--active{
-    color: var(--dark-blue);
 }
 
 .arrow-icon {
@@ -222,6 +219,7 @@ picture img{
         width: 140px;
         margin-top: -38px;
         margin-left: -78px;
+        /* top: -5px; */
     }
 
     .arrow-icon {
@@ -233,7 +231,7 @@ picture img{
     }
 
     .attribution {
-        top: 93%;
+        top: 90%;
     }
 
 }
