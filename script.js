@@ -5,7 +5,7 @@ const questionsArray = [...questions];
 console.log(questions);
 console.log(questionsArray);//probando si anda
 
-questions.forEach( question => question.addEventListener('click', desplegarParrafos);
+questions.forEach( question => question.addEventListener('click', desplegarParrafos) );
 
 function desplegarParrafos(e) {
 
@@ -37,7 +37,7 @@ function replegarParrafos(index){
         {
             question.style.fontWeight = '400';
             question.childNodes[1].classList.remove('arrow-icon--active');
-            question.nextElementSibling.style.display='none';
+            question.nextElementSibling.style.display = 'none';
         };
     }
     
